@@ -4,6 +4,8 @@ IMP NOTE**
 1.	Sometimes API are giving 429 instead of 200 status code, please have a look at script (
     test cases) and code it is correctly represented
 2.	Sometimes API’s are giving unexpected response pattern also like content-type, please have a look at script, code & framework.
+
+
 **TITLE**
 API automation using Rest Assured Library has been used 
 Deliverables: 
@@ -11,6 +13,8 @@ Deliverables:
 •	Config Reader File – Has all the common method to fetch the config.properties file.
 •	Test cases are separated with different scenarios, there can be single class file but public methods of each test is different
 •	Test case Report generation are in ALLURE HTML format will be open in browser.
+
+
 **LANGUAGE**
  JAVA
 
@@ -53,9 +57,13 @@ PROJECT STRUCTURE DETAILS
 •	mvn compile package 
 •	Go to < src <main <test < java -> Run All Tests, once all test has been executed in terminal of Intellij
 
+
+
 **2.	Run command =  allure serve allure-results** 
 3.	 As this allure-results folder is present in root directory.
 4.	Allure Reports will be open in browser automatically after running this command , it will be in index.html format.
+
+
 
 **IMP NOTE**
 1.	Sometimes API are giving 429 instead of 200 status code, please have a look at script and code it is correctly represented
